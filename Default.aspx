@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default"
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default"
     UICulture="fr" %>
 
 <%@ Register Assembly="DevExpress.Web.ASPxGridView.v11.1, Version=11.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A"
@@ -1331,6 +1331,7 @@
     </div>
     <div>
         <br />
+        <br />
     </div>
 
     <asp:SqlDataSource ID="datasrcDemande" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringPPal %>"
@@ -1355,6 +1356,7 @@
         CssPostfix="DevEx" ImageSpacing="5px" Modal="True">
         <Image Url="~/App_Themes/DevEx/Web/Loading.gif">
         </Image>
+        
     </dx:ASPxLoadingPanel>
     </form>
     </div>
